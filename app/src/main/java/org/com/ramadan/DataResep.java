@@ -4,70 +4,64 @@ import java.util.ArrayList;
 
 public class DataResep {
     private static String[] namaMakanan = {
-            "SOTO AYAM",
-            "PUBG",
-            "BATLE FIELD V",
-            "CSGO",
-            "OVERWATCH",
-            "PALADINS",
-            "RED DEAD RENDEMPTION",
-            "RESIDENT EVIL III",
-            "POINT BLANK",
-            "WAR THUNDER",
-            "WORLD WAR Z",
-            "STAR WARS JEDI FALLEN ORDER"
+            "Soto Ayam Lamongan",
+            "Tumis Sawi Hijau dengan Ayam",
+            "Bihun Siram Capcay Kekinian",
+            "Balado Terong Ebi",
+            "Nasi Goreng Beras Merah",
+            "Cumi Goreng Saus Asam Manis",
+            "Es Buah Campur",
+            "Kolak Pisang Milk Tea",
+            "Bubur Kacang Hijau",
+            "Es Cendol Nangka",
+            "Jus Mangga Yogurt Beri",
+            "Teh Tarik Jelly"
 
     };
 
     private static String[] deskripsiMakanan = {
-            "Soto ayam adalah makanan khas Indonesia yang berupa sejenis sup ayam dengan kuah yang berwarna kekuningan. Warna kuning ini dikarenakan oleh kunyit yang digunakan sebagai bumbu. Soto ayam banyak ditemukan di daerah-daerah di Indonesia dan Singapura.",
-            "PlayerUnknown's Battlegrounds (sering disingkat PUBG) adalah sebuah permainan dengan genre battle royale, yang para pemainnya bisa bermain dengan 100 orang sekaligus secara daring. Di dalam permainan ini pemain bisa bermain solo, tim 2 orang, dan tim 4 orang, serta bisa mengundang teman untuk bergabung ke dalam permainan sebagai tim.",
-            "Battlefield V adalah game video penembak orang pertama yang dikembangkan oleh EA DICE dan diterbitkan oleh Electronic Arts. Battlefield V adalah angsuran keenam belas dalam seri Battlefield. Itu dirilis di seluruh dunia untuk Microsoft Windows, PlayStation 4, dan Xbox One pada 20 November 2018. Mereka yang memesan di muka Edisi Deluxe dari permainan diberikan akses awal ke permainan pada 15 November 2018, [2] dan Origin Access Pelanggan premium di PC menerima akses ke game pada 9 November 2018. [3] Permainan ini didasarkan pada Perang Dunia II dan merupakan kelanjutan tematik dari prekursornya yang berbasiskan Perang Dunia I Battlefield 1.",
-            "Counter Strike: Global Offensive adalah game dengan mode FPS (First-Person Shooting) yang dikembangkan oleh Valve Corporation dan Hidden Path Entertainment. Kedua perusahaan ini juga merupakan perusahaan yang mengembangkan Counter Strike: Source. Counter Strike: GO merupakan permainan keempat di dalam waralaba Counter Strike, tidak termasuk Counter Strike Neo dan Online. Counter Strike Global Offensive dirilis pada tanggal 21 Agustus, 2012 dan dapat dimainkan pada Microsoft Windows, OS X, Xbox Live Arcade dan Playstation Network versi Amerika.",
-            "Overwatch adalah penembak orang pertama multiplayer berbasis tim yang dikembangkan dan diterbitkan oleh Blizzard Entertainment. Digambarkan sebagai \"penembak pahlawan\", Overwatch menetapkan pemain menjadi dua tim yang terdiri dari enam, dengan masing-masing pemain memilih dari daftar lebih dari 30 karakter, yang dikenal sebagai \"pahlawan\", masing-masing dengan gaya permainan yang unik yang dibagi menjadi tiga peran umum yang sesuai dengan tujuan mereka. Pemain dalam tim bekerja bersama untuk mengamankan dan mempertahankan titik kontrol pada peta atau mengawal muatan di seluruh peta dalam waktu terbatas..",
-            "Paladins adalah permainan tembak-menembak orang-pertama (First-person Shooter) yang dikembangkan oleh Hi-Rez Studios. Paladins dibuat dengan tema fiksi ilmiah dan pengaturan fantasi Champions yang penuh warna. Setiap Champions memiliki cara menembak yang unik dan sesuai kemampuan mereka sendiri. Pertempuran di Paladins berbasis tembak menembak antar regu. Di dalam game pemain bisa menyusun kumpulan kartu untuk menambah kemampuan champions.[1]",
-            "Red Dead Redemption 2 adalah game aksi-petualangan 2018 yang dikembangkan dan diterbitkan oleh Rockstar Games. Gim ini adalah entri ketiga dalam seri Red Dead dan merupakan prekuel dari game Red Dead Redemption 2010. Kisah ini berlatar tahun 1899 dalam representasi fiksi dari Barat, Midwestern, dan Amerika Serikat Selatan dan mengikuti pelanggar hukum Arthur Morgan, anggota geng Van der Linde. Arthur harus berurusan dengan penurunan Wild West sementara berusaha untuk bertahan melawan pasukan pemerintah, geng saingan, dan musuh lainnya. Cerita ini juga mengikuti sesama anggota geng John Marston, protagonis dari Red Dead Redemption.",
-            "Resident Evil 3 adalah permainan video horor sintasan yang dikembangkan dan diterbitkan oleh Capcom. Permainan ini adalah buatan ulang dari permainan Resident Evil 2 tahun 1998. Pemain bermain sebagai perwira polisi junior bernama Leon S. Kennedy dan seorang mahasiswa Claire Redfield ketika mereka berusaha melarikan diri dari Kota Raccoon selama kiamat zombi. Permainan ini dirilis di seluruh dunia untuk PlayStation 4, Windows, dan Xbox One pada 25 Januari 2019. Banyak kritikus yang memuji permainan ini dalam segi presentasi, ara bermain, dan kesamaan dengan versi aslinya.",
-            "Point Blank adalah sebuah permainan komputer ber-genre FPS yang dimainkan secara online. Permainan ini dikembangkan oleh Zepetto dari Korea Selatan dan dipublikasikan oleh Zepetto. Selain di Korea Selatan, permainan ini mempunyai server sendiri di beberapa negara seperti Thailand, Rusia, Indonesia, Brasil, Turki, Amerika Serikat, dan Peru. Di Indonesia, permainan ini sekarang telah dikelola oleh Zepetto.Point Blank berkisah tentang perseteruan antara Free Rebels dan pemerintah yang dalam hal ini adalah Counter Terrorist Force (CT-Force).",
-            "War Thunder adalah gim video multiplayer kendaraan tempur gratis yang dikembangkan dan diterbitkan oleh studio Gaijin Entertainment, studio Moskow di Eropa. Diumumkan pada 2011, ini pertama kali dirilis pada November 2012 sebagai Open Beta dengan rilis di seluruh dunia pada Januari 2013; itu memiliki rilis resminya pada 21 Desember 2016. [13] [12] Ini memiliki format lintas platform untuk Microsoft Windows, Linux, PlayStation 4, Xbox One, dan Shield Android TV.Dikembangkan sebagai permainan simulasi terbang, ia sebelumnya bernama World of Planes tetapi karena kemiripannya dengan World of Warplanes milik Wargaming.",
-            "World War Z adalah permainan video tembak-menembak orang ketiga yang dikembangkan oleh Saber Interactive serta diterbitkan oleh Focus Home Interactive dan Mad Dog Games LLC. Permainan ini didasarkan pada buku tahun 2006 dengan nama yang sama, dan berlatar di semesta yang sama dengan adaptasi film 2013.Permainan ini diumumkan pada Desember 2017 sebagai permainan kooperasi empat orang di The Game Awards.[8] Permainan ini terinspirasi pada film World War Z 2013, dengan gaya bermain yang menampilkan pertarungan tembak menembak orang ketiga kooperatif dari perpektif bahu untuk melawan zombie dengan perangkap defensif",
-            "Star Wars Jedi: Fallen Order adalah game aksi-petualangan yang dikembangkan oleh Respawn Entertainment dan diterbitkan oleh Electronic Arts. Ini dirilis untuk Windows, PlayStation 4, dan Xbox One pada 15 November 2019. Permainan ini diatur dalam semesta Star Wars, lima tahun setelah film Star Wars: Episode III - Revenge of the Sith dan 14 tahun sebelum Star Wars: Episode IV - Sebuah Harapan Baru, dan mengikuti seorang Jedi Padawan muda bernama Cal Kestis saat ia diburu melalui galaksi oleh Kekaisaran Galactic, sambil mencoba untuk menyelesaikan pelatihan Jedi-nya dan memulihkan Jedi Order yang sekarang musnah.",
-
-
-
-
+            "Soto ayam Lamongan terkenal dengan kuahnya yang gurih menyegarkan. Menu ini bisa kamu praktikkan di rumah untuk keluarga. Bukan hanya gurih, soto berkuah kuning ini menawarkan kenikmatan tiada tara ketika disandingkan dengan nasi hangat dan sambal. Jika biasanya kamu menyantap soto ayam khas Lamongan di restoran atau pedagang kaki lima, kali ini kita buat sendiri, yuk!",
+            "Salah satu resep mudah, sehat, dan nikmat untuk dicoba adalah tumis sawi hijau dengan ayam. Cukup populer di Indonesia, menu ini mudah untuk dimasak. Tidak banyak bahan yang digunakan, kamu pun tidak perlu waktu lama untuk memasaknya. Tumis sawi hijau, tambahkan potongan ayam dan menu ini dijamin membuatmu tidak berhenti mengunyah. Coba masak dengan resep ini, yuk!",
+            "Bingung mau menyajikan apa untuk kumpul keluarga? Bihun siram capcay kekian adalah ide yang tepat. Sajian oriental a la restoran dengan memadukan resep capcay kuah dan bihun ini menawarkan kelezatan yang tidak bisa ditolak. Tenang, kamu bisa membuatnya sendiri di rumah sekarang. Bihun siram capcay kekian, sajian Oriental yang meriahkan acara keluargamu. Komplit namun mudah dibuat, yuk kita coba membuatnya hari ini!",
+            "Balado terong ebi versi Royco ini berbeda dibandingkan dengan terong balado lain. Mengapa? Terong balado versi Royco tidak digoreng melainkan dipanggang. Selain itu kehadiran ebi yang ditambahkan ke dalam bahan balado membuat rasanya semakin mantap. Tak hanya itu, tambahan teri dan petai pasti akan membuat menu pendamping ini jadi pusat perhatian. Kombinasi balado terong ebi dengan tambahan ikan teri tentu takkan mudah untuk ditolak. Intip resepnya supaya bisa kamu praktikkan untuk minggu ini!",
+            "Nasi goreng seringkali jadi guilty pleasure karena jumlah kalorinya bisa membuat badan melar. Padahal, kelezatan makanan khas Indonesia ini sudah terkenal hingga mancanegara. Disajikan hangat dengan telur mata sapi dan kerupuk, bikin nasi goreng susah ditolak! Agar tak merasa bersalah, kamu bisa mengakalinya dengan menggunakan beras merah. Nasi goreng beras merah ini memang asing terdengar, tapi dengan resep khusus kamu bisa menyulapnya jadi sajian menggugah selera.",
+            "Resep cumi goreng saus asam manis ini bisa jadis inspirasi kamu sebagai lauk makan malam praktis. Yuk, belanja cumi segar! Layaknya membuat calamari goreng dengan saus tartar, kurang lebih proses Cumi Goreng Saus Asam Manis sama. Hanya saja, saus asam manis nanti akan berperan sebagai penyumbang cita rasa. Selain memotong cumi dalam bentuk bulat-bulat dan menggorengnya hingga kering, siapkan saus asam manis kental dengan buah nanas. Setelah selesai, cukup padukan keduanya deh. Segar rasanya!",
+            "Es Buah Campur adalah salah satu takjil segar yang populer di bulan puasa selain kolak pisang. Keduanya seringkali hadir di meja saji buka puasa sebagai pembuka iftar. Namun, tak ada yang saklek untuk bahan utama es buah di bulan puasa. Maka, momen Ramadan dimanfaatkan untuk menyajikan es campur dari buah-buahan yang identik di bulannya. Ya, apalagi kalau bukan blewah dan timun suri yang entah mengapa selalu saja musim.",
+            "Kolak pisang adalah salah satu takjil yang wajib ada di meja saji buka puasa. Selain lebih praktis, kolak pisang milk tea memberikan warna baru pada sajian buka puasa di rumah tahun ini. Salah satu tips bikin kolak pisang enak adalah pemilihan pisang sebagai bahan utamanya. Pilih pisang yang sudah matang tapi tidak terlalu empuk supaya tidak lembek saat dimasak. Pisang yang digunakan bisa jenis pisang tanduk, pisang raja, atau pisang nangka. Hindari memilih pisang yang masih mentah atau keras karena cita rasanya masih hambar bahkan sepat.",
+            "Semangkuk bubur kacang hijau hangat cocok dijadikan menu takjil atau buka puasa saat Ramadan. Kalori dari gula merah ditambah serat dari kacang hijau, dapat mengembalikan tenaga yang hilang selama berpuasa. Cara membuatnya juga relatif mudah untuk dilakukan di rumah. Tak perlu jauh-jauh ke kafe, kok. Kamu juga bisa bereksplorasi dengan berbagai resepnya.",
+            "Ada dua versi bahan pembuat cendol yang digunakan oleh masyarakat Indonesia, yaitu tepung hunkwee dan tepung beras. Di tanah Jawa Barat, minuman yang disajikan bersama santan dan saus gula merah ini dikenal dengan sebutan cendol, sementara Jawa Tengah dan Jawa Timur populer dengan sebutan dawet. Kali ini, kita akan menyajikan resep cendol yang menarik.",
+            "Jus mangga dengan yogurt dan beri berikut ini akan bantu penuhi kebutuhan vitamin untuk daya tahan tubuh. Yuk, kita ikuti resepnya berikut ini! Bagi kamu yang tetap ingin menjaga kecukupan vitamin untuk daya tubuh, jus mangga beri ini pas banget dijadikan sebagai salah satu sumber minuman sehat. Perpaduan jus buah mangga segar serta Buavita Mango yang keduanya kaya akan vitamin C, dan dua jenis buah beri yang merupakan sumber antioksidan, yakni stroberi dan blueberry. Belum lagi sumbangan yoghurt yang bikin cita rasanya creamy dan berperan baik untuk sistem pencernaan di dalam tubuh kita.",
+            "Berbuka puasa dengan teh tarik jelly tentu akan sangat menyegarkan. Istimewa karena paduan kehadiran teh tarik dan jelly milk tea dari SariWangi Milk Tea Teh Tarik yang menemani cincau hitam. Aku membuat jelly yang cita rasanya unik dari agar-agar bubuk yang dimasak bersama SariWangi Milk Tea Teh Tarik. Masak hingga hampir matang lalu dijadikan jelly isian es teh tarik.",
     };
 
     private static String[] ResepMakanan = {
-            "Ayam" +
-                    "Telur",
-            "Rp. 200.000",
-            "Rp. 450.000",
-            "FREE GAME ON STEAM",
-            "Rp. 350.000",
-            "FREE GAME ON STEAM",
-            "Rp. 700.000",
-            "Rp. 300.000",
-            "Rp. 200.000",
-            "FREE GAME ON STEAM",
-            "FREE GAME ON STEAM",
-            "Rp. 400.000",
-
+            "1 ekor (700 g) ayam kampung\n" + "2.5 L air\n" + "5 lembar daun jeruk\n" + "1 sdt garam\n" + "1 sdt gula pasir\n" + "2 sdm Bango Kecap Manis Light\n" + "2 batang serai, memarkan\n" + "2 cm lengkuas, memarkan\n" + "2 sdm minyak, untuk menumis\n" + "300 ml minyak, untuk menggoreng",
+            "500 g fillet dada ayam, potong dadu\n" + "200 g sawi hijau, potong 4 cm\n" + "6 sdm Bango Kecap Manis Pedas\n" + "½ buah bawang bombay, cincang halus\n" + "2 siung bawang putih, iris halus\n" + "2 butir bawang merah, iris halus\n" + "1 buah tomat, buang biji, potong dadu kecil\n" + "1 sdt garam\n" + "½ sdt merica putih bubuk\n" + "100 ml kaldu ayam\n" + "2 sdm minyak, untuk menumis",
+            "200 g bihun, goreng hingga matang dan kering\n" + "200 g udang, kupas, buang kepala\n" + "200 g kekian goreng, iris-iris\n" + "100 g brokoli, petiki kuntumnya\n" + "100 g jagung putren, belah 4\n" + "3 batang caisim, potong 3 cm\n" + "2 batang daun bawang, iris serong\n" + "1 buah wortel, kupas, iris serong\n" + "1 buah bawang bombay, cincang halus\n" + "2 siung bawang putih, cincang halus\n" + "2 sdm Bango Kecap Manis\n" + "1 sdm saus tiram\n" + "1 sdm saus tomat\n" + "2 sdm tepung maizena, larutkan dengan 2 sdm air\n" + "1 sdt minyak wijen\n" + "½ sdt garam\n" + "½ sdt merica putih bubuk\n" + "500 ml air\n" + "2 sdm minyak, untuk menumis",
+            "5 buah terong, belah 2\n" + "100 g cabai merah keriting\n" + "1 sdt Royco Kaldu Ayam\n" + "½ sdt ebi, rendam air hangat, tiriskan\n" + "75 g teri medan tawar, goreng\n" + "5 butir bawang merah\n" + "1 butir kemiri\n" + "2 cm lengkuas, memarkan\n" + "1 buah tomat, buang biji\n" + "¼ sdt terasi udang\n" + "¼ sdt garam\n" + "¼ sdt gula pasir\n" + "1 cm kunyit\n" + "1 papan petai, goreng setengah matang",
+            "1.5 piring nasi merah matang\n" + "45 g paha ayam, suwir\n" + "3 butir bakso sapi, iris\n" + "1 butir telur ayam\n" + "1 buah cabai merah, buang bijinya, iris serong\n" + "2 butir bawang merah\n" + "2 siung bawang putih\n" + "½ batang daun bawang\n" + "1 sdm Bango Kecap Manis Light\n" + "1 sdt merica putih bubuk\n" + "1 sachet Royco Kaldu Sapi\n" + "3 sdm minyak",
+            "6 butir bawang merah\n" + "2 buah daun bawang\n" + "20 margarin\n" + "10 g Royco Kaldu Ayam\n" + "¼ gelas (Amerika) sambal botol\n" + "¼ gelas (Amerika) madu\n" + "1 gelas (Amerika) nanas",
+            "150 g blewah\n" + "150 g nanas\n" + "150 g lidah buaya siap santap\n" + "150 g timun suri\n" + "150 g semangka\n" + "800 ml Buavita Mango",
+            "100 g ubi merah, potong merah\n" + "100 g kolang kaling\n" + "200 g gula merah, sisir\n" + "2 buah pisang tanduk, potong serong \n" + "1500 ml air",
+            "250 gr kacang hijau kering\n" + "250 gram gula merah\n" + "50 gram gula pasir\n" + "3 lembar daun pandan diikat\n" + "250 ml santan kental\n" + "1/2 sdt vanili\n" + "2 cm jahe",
+            "150g cendol siap pakai\n" + "150 g buah nangka, potong dadu\n" + "es batu, secukupnya\n" + "150 g gula merah\n" + "100 g gula pasir\n" + "5sdm Bango Kecap Manis\n" + "200 ml air\n" + "1 lembar daun pandan",
+            "200 g daging buah mangga\n" + "150 g yogurt, bagi menjadi 2 bagian\n" + "400 ml Buavita Mango\n" + "100 g stroberi\n" + "70 g blueberry\n" + "es batu",
+            "6 sachet SariWangi Milk Tea Teh Tarik\n" + "400 ml air panas\n" + "200 g cincau hitam siap santap, serut memanjang\n" + "7 g agar-agar bubuk\n" + "500 ml air\n" + "8 sachet SariWangi Milk Tea Teh Tarik\n" + "Es batu",
     };
 
     private static String[] gambarMakanan = {
             "https://www.masakapahariini.com/wp-content/uploads/2019/11/shutterstock_1469046305-780x440.jpg",
-            "https://upload.wikimedia.org/wikipedia/id/3/3d/PlayerUnknown%27s_Battlegrounds_Steam_Logo.jpg",
-            "https://awsimages.detik.net.id/community/media/visual/2018/05/28/6382cba1-b09f-4692-8c6c-58800e624f42.jpeg?w=700&q=90",
-            "https://esportsnesia.com/wp-content/uploads/2018/05/Apa-Itu-CSGO.jpg",
-            "https://s1.bukalapak.com/img/621100817/w-1000/Kaset_DVD_PC_Game_Overwatch_Origins_Edition_Original.jpg",
-            "https://d26bwjyd9l0e3m.cloudfront.net/wp-content/uploads/2016/09/Paladins-Featured-1.jpg",
-            "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/10/27/4744191/4744191_818073d1-45fa-44f3-87dc-5dc2fd86b327_1500_1500.jpg",
-            "https://i2.wp.com/pemmzchannel.com/wp-content/uploads/2020/04/Resident-Evil-3.jpg?fit=1280%2C720&ssl=1",
-            "https://technologue.id/wp-content/uploads/2016/10/PBM.png",
-            "https://static.warthunder.com/upload/image/!%202018/12%20December/Major%20Update/1_85_news_italy_eng_6b12355d3c97a4447bb560c4eca2f700.jpg",
-            "https://d26bwjyd9l0e3m.cloudfront.net/wp-content/uploads/2013/06/World-War-Z-Review-Featured.jpg",
-            "https://cdn-products.eneba.com/resized-products/VrHnf2r1IX2yFJkyfSD94fiKQ5ynw05QHA_kxak6Rck_390x400_1x-0.jpeg",
+            "https://www.masakapahariini.com/wp-content/uploads/2019/11/shutterstock_408552802-647x440.jpg",
+            "https://www.masakapahariini.com/wp-content/uploads/2019/11/Bihun-Siram-Capcay-Udang-620x440.jpg",
+            "https://www.masakapahariini.com/wp-content/uploads/2019/05/shutterstock_1145804015-780x440.jpg",
+            "https://www.masakapahariini.com/wp-content/uploads/2019/07/nasi-merah-goreng_edited-780x440.jpg",
+            "https://www.masakapahariini.com/wp-content/uploads/2019/01/cumi-goreng-saus-asam-manis-750x440.jpg",
+            "https://www.masakapahariini.com/wp-content/uploads/2020/04/shutterstock_1084926026-780x440.jpg",
+            "https://www.masakapahariini.com/wp-content/uploads/2020/04/kolak-pisang-1-510x306.jpg",
+            "https://www.masakapahariini.com/wp-content/uploads/2019/05/bubur-kacang-hijau-2_edited-768x512.jpg",
+            "https://www.masakapahariini.com/wp-content/uploads/2019/05/ES-CENDOL-NANGKA-KECAP-MANIS-WITH-PRODUCT-510x306.jpg",
+            "https://www.masakapahariini.com/wp-content/uploads/2020/03/jus-mangga-yogurt-beri-5-510x306.jpg",
+            "https://www.masakapahariini.com/wp-content/uploads/2020/04/Teh-Tarik-Jelly-780x440.jpg",
 
 
 

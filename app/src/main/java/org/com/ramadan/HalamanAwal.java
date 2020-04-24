@@ -17,7 +17,6 @@ import org.com.ramadan.adapter.OnItemClickCallback;
 import java.util.ArrayList;
 
 public class HalamanAwal extends AppCompatActivity {
-    Button button;
     private RecyclerView ryclefood;
     private ArrayList<Resep> list = new ArrayList<>();
 
@@ -27,7 +26,6 @@ public class HalamanAwal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_awal);
-        button = findViewById(R.id.button);
         ryclefood = findViewById(R.id.ryclefood);
         ryclefood.setHasFixedSize(true);
 
